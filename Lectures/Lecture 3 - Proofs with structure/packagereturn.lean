@@ -2,7 +2,7 @@
 import Mathlib.Data.Real.Basic
 import Library.Basic
 
-
+-- delete right tactic portion to prove left side or delete left tactic portion to prove right side
 example {d1 s1 d2 s2 x1 x2 : ℝ} (h1 : d1 = 5) (h2 : s1 = 50) (h3 : d2 = 1) (h4 : s2 = 30) 
 (h5 : x1 = d1/s1) (h6 : x2 = d2/s2): x1 ≤ 0.3333 ∨ x2 ≤ 0.3333 := by
   left

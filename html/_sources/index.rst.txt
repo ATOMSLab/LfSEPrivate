@@ -1,12 +1,12 @@
 
-Mathematics in Lean
+Lean for Scientists and Engineers
 ===================
 
 .. toctree::
    :numbered:
    :maxdepth: 2
 
-   C01_Introduction
+   C01_Introductionb
    C02_Basics
    C03_Logic
    C04_Sets_and_Functions

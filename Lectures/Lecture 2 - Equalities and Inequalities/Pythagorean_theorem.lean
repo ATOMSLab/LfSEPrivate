@@ -1,3 +1,6 @@
+import Mathlib
+
+
 example {ladder base building : ℝ} (h1 : ladder = 100) (h2 : base = 16)
  (h3 : building^2 = ladder^2 - base^2) : building^2 < 10000 := by
   calc
